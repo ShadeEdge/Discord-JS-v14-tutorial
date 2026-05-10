@@ -10,6 +10,7 @@ const client = new Client({
   ],
 });
 
+// To not get any deprecation warning on the console, use clientReady instead.
 client.on('clientReady', () => {
   console.log(`✅ Logged in as ${client.user.tag}!`);
 });
