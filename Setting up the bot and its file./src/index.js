@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { Client, IntentsBitField } = require('discord.js');
 
 const client = new Client({
@@ -15,4 +14,4 @@ client.on('clientReady', () => {
   console.log(`✅ Logged in as ${client.user.tag}!`);
 });
 
-client.login(process.env.TOKEN);
+client.login('Your bot's token');
