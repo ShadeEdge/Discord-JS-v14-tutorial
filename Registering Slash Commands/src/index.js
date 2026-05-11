@@ -22,6 +22,6 @@ client.on('interactionCreate', (interaction) => {
   if (interaction.commandName === 'ping') {
     interaction.editreply('Pong!')
   }
-})
+});
 
 client.login(process.env.TOKEN);
