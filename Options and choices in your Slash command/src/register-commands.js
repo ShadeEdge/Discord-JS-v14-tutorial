@@ -4,7 +4,7 @@ const { REST, Routes, ApplicationCommandOptionType } = require('discord.js');
 const commands = [
   {
     name: 'add',
-    description: 'Adds two numbers.',
+    description: 'Adds two numbers',
     options: [
       {
         name: 'first-number',
